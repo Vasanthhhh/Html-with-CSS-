@@ -1,0 +1,44 @@
+ .btn
+{
+    color: rgb(252, 252, 253);
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+} 
+.btn-green
+{
+background-color: #32c732;    
+}
+.btn-green:hover
+{
+    background-color: rgb(10, 83, 10);
+}
+.btn-blue
+{
+background-color: #3737ec;
+}
+.btn-blue:hover
+{
+    background-color: blue;
+}
+input
+{
+    padding: 10px;
+    width: 300px;
+    border: 2px groove black;
+    border-radius: 5px;
+    
+}
+input:focus
+{
+    outline: 1px #c8c8df;
+    color: red;
+}
+input::placeholder
+{
+    color: lightgrey;
+    font-size: 15px;
+}
